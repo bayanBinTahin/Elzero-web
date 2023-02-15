@@ -423,9 +423,7 @@
             transition: transform var(--main-transition), box-shadow var(--main-transition);
         }
         
-        .articles .box:hover,
-        .articles .box:focus,
-        .articles .box:active {
+        .articles .container .boxs-container .box:hover {
             transform: translateY(-10px);
             box-shadow: 0 2px 15px rgb(0 0 0 /20%);
         }
@@ -960,6 +958,14 @@
                 display: flex;
                 align-items: center;
             }
+            .footer .contact div .numbers {
+                display: flex;
+                flex-direction: column;
+                margin: 5px 0;
+            }
+            .footer .contact div .numbers p {
+                margin: 5px 0;
+            }
             .footer .contact i {
                 margin: 0 15px 0 0;
             }
@@ -981,6 +987,7 @@
             padding: 25px 0;
             margin: 50px 0 0;
             text-align: center;
+            color: white;
         }
         
         .footer .copyrights i {
