@@ -423,7 +423,9 @@
             transition: transform var(--main-transition), box-shadow var(--main-transition);
         }
         
-        .articles .container .boxs-container .box:hover {
+        .articles .box:hover,
+        .articles .box:focus,
+        .articles .box:active {
             transform: translateY(-10px);
             box-shadow: 0 2px 15px rgb(0 0 0 /20%);
         }
